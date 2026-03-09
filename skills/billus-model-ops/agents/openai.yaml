@@ -1,0 +1,4 @@
+interface:
+  display_name: "Billus 大模型技能库"
+  short_description: "Framework-aware LLM, VL, and diffusion model operations."
+  default_prompt: "Use $billus-model-ops to inspect this training repo, identify the active framework stack, and make a safe model change with validation notes."
