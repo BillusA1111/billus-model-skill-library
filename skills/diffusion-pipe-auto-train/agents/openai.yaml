@@ -1,0 +1,4 @@
+interface:
+  display_name: "Diffusion Pipe Auto Train"
+  short_description: "Automate diffusion-pipe training runs."
+  default_prompt: "Use $diffusion-pipe-auto-train to bootstrap diffusion-pipe, generate stable image or edit training configs, and launch a VRAM-aware LoRA or supported full finetune run."
