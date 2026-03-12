@@ -143,10 +143,14 @@ python skills/billus-model-ops/scripts/summarize_training_log.py <train.log>
 - Release paper: [docs/diffusion-pipe-auto-train-paper.md](docs/diffusion-pipe-auto-train-paper.md)
 - Planned follow-up optimization after `v1.0`: automatic dataset download, dataset cleaning, automated tagging, dataset organization, and end-to-end automated training from prepared data.
 
-## Skill Links
+## Skill Navigator
 
-- Core model ops skill: [skills/billus-model-ops/SKILL.md](skills/billus-model-ops/SKILL.md)
-- Core model ops paper: [docs/billus-model-ops-paper.md](docs/billus-model-ops-paper.md)
-- Diffusion-pipe auto train skill: [skills/diffusion-pipe-auto-train/SKILL.md](skills/diffusion-pipe-auto-train/SKILL.md)
-- Diffusion-pipe auto train usage: [docs/diffusion-pipe-auto-train-usage.md](docs/diffusion-pipe-auto-train-usage.md)
-- Diffusion-pipe auto train paper: [docs/diffusion-pipe-auto-train-paper.md](docs/diffusion-pipe-auto-train-paper.md)
+| Skill | Version | Purpose | Entry | Docs |
+| --- | --- | --- | --- | --- |
+| `billus-model-ops` | current | General model engineering workflow for LLM, VL, and diffusion repos | [SKILL.md](skills/billus-model-ops/SKILL.md) | [paper](docs/billus-model-ops-paper.md) |
+| `diffusion-pipe-auto-train` | `v1.0` | Automated `diffusion-pipe` image and image-edit training prep, config generation, and launch | [SKILL.md](skills/diffusion-pipe-auto-train/SKILL.md) | [usage](docs/diffusion-pipe-auto-train-usage.md), [paper](docs/diffusion-pipe-auto-train-paper.md) |
+
+### Choosing A Skill
+
+- Use `billus-model-ops` when you want repository-grounded model engineering help across common training stacks.
+- Use `diffusion-pipe-auto-train` when you want a fixed-path, VRAM-aware automation flow specifically for `diffusion-pipe`.
